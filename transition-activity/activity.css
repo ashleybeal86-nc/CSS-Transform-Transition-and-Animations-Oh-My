@@ -1,13 +1,8 @@
-
-.button {
-    background-color: ghostwhite;
-}
-
-.button: hover {
-    background-color: rgb(100, 149, 237); transition: color 2s ease-in;
-    text: white;
-}
-
-.button: hover {
-    text-color: white;
-}
+.transform {
+    transition-duration: 1s;
+  }
+  
+  .transform:hover {
+    background-color: cornflowerblue;
+    text-decoration-color: ghostwhite;
+  }

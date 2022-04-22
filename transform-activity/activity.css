@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 body  {
   font-family: 'Josefin Sans', sans-serif;
@@ -13,12 +13,11 @@ main {
   align-items: center;
 }
 
-main > div {
-  width: 40%;
-  margin: auto;
-  padding: 10%;
-}
 
 main {
-  transform: skew(0deg,-16deg);
+  transform: skewX(-10deg) rotate(-10deg);
+  text-align: center;
+  text-indent: 25%;
 }
+
+
