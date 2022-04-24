@@ -1,4 +1,4 @@
-import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 body  {
   font-family: 'Josefin Sans', sans-serif;
@@ -13,11 +13,36 @@ main {
   align-items: center;
 }
 
-
 main {
   transform: skewX(-10deg) rotate(-10deg);
   text-align: center;
+  align-items: center;
   text-indent: 25%;
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+body  {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+main {
+  background-color: mediumaquamarine;
+  height: 90vh;
+  width: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  transform: skewX(-10deg) rotate(-10deg);
+  text-align: center;
+  display: flex;
+  align-content: center;
+  align-items: stretch;
+  font-style: bold;
+  font-size: 1em;
+  text-indent: 28%;
+}

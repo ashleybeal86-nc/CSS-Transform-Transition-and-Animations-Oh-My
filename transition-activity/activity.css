@@ -4,5 +4,11 @@
   
   .transform:hover {
     background-color: cornflowerblue;
-    text-decoration-color: ghostwhite;
   }
+
+  .transform:hover {
+    text-color: white;
+  }
+
+  
+  
